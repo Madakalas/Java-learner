@@ -1,19 +1,16 @@
 public class Test {
     public static void main(String[] args) {
-        Sa a=new Sa();
-        Ca b= new Ca();
-        a.set_Acc_Amt(2000000);
-        a.set_Min_bal(5000);
+        
+        Sa s = new Sa();
+        Ca c = new Ca();
 
-        b.set_Acc_Amt(20000);
-        b.set_Min_bal(500);
+        s.set_Max_Bal(20000);
+        c.set_Max_Bal(25000);
 
-        System.out.println(a.get_Acc_Amt());
-        System.out.println(a.get_Min_bal());
+        System.out.println(s.get_Max_Bal());
+         System.out.println(c.get_Max_Bal());
 
-       
-        System.out.println(b.get_Acc_Amt());
-        System.out.println(b.get_Min_bal());
+
     }
     
 }
