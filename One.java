@@ -1,7 +1,19 @@
-public class One{
-    public static void main(String[] args){
+class One{
+    public String toString(){
+        return "Siddu";
+    }
 
-        One  t = new One();
-        System.out.println(t);
 }
+class Two extends One{
+
+}
+class Test{
+    public static void main(String[] args) {
+            One a = new One();
+            Two t = new Two();
+            System.out.println(a);
+            System.out.println(t);
+        
+    }
+
 }
